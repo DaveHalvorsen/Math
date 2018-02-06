@@ -3,8 +3,8 @@
 
 # current_sum is the current total of the sums. It needs to be defined before being used. 
 current_sum = 0
-# This for loop runs a full cycle of 0 - 1000. Note that 1001 will not be run.
-for i in range(1001):
+# This for loop runs a full cycle of 0 - 999. Note that 1000 will not be run.
+for i in range(1000):
     # You'll see 5 #commented out print lines. Those were used for code testing initially. 
     #print("The current i is: " + str(i))
     # The modulo operator is used to find if the current i is divisible by 3 
@@ -19,6 +19,6 @@ for i in range(1001):
         # The current i (that was divisible) is added to the current_sum.
         current_sum = current_sum + i
         #print("The current sum is: " + str(current_sum))
-#This final print statement only prints out the grandtotal.
+# This final print statement only prints out the grandtotal.
 print("The current sum is: " + str(current_sum))
-# The answer this program agrees with what others have reported (234,168)
+# The answer this program agrees with what others have reported (233,168)
